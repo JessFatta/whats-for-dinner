@@ -1,10 +1,113 @@
-/* font-family: 'Roboto', sans-serif;
-
+/*font-family: 'Roboto', sans-serif;
 COLORS
-teal - #0fb9b1;
+teal - #0FB9B1;
 frosted white - rgba(225, 225, 225, .9);
-grey - #95a5a6;
-red - #ee5253
-
+grey - #95A5A6;
+red - #EE5253
 */
 
+body {
+ background-image: url("./assets/burger-friends.jpg");
+ background-size: cover;
+ background-repeat: no-repeat;
+ overflow: hidden;
+ margin: 0px;
+}
+
+
+header {
+  display: flex;
+  font-family: 'Roboto', sans-serif;
+  background-color: 0fb9b1;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+
+#whats-for-dinner {
+  margin-left: 20px;
+  padding-bottom: 10px;
+  font-size: 25px;
+}
+
+
+#add-recipe-button {
+  font-family: 'Roboto', sans-serif;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 0px;
+}
+
+
+#left-box {
+  display: flex;
+  font-family: 'Roboto', sans-serif;
+  color: black;
+  flex-direction: column;
+  align-content: flex-start;
+  align-items: flex-start;
+  background-color: rgba(225, 225, 225, .9);
+  float: left;
+  width: 20%;
+  height: 35%;
+  margin-left: 80px;
+  margin-top: 80px;
+  margin-right: 80px;
+  margin-bottom: 80px;
+  padding: 50px;
+  padding-top: 75px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 75px;
+  justify-content: center;
+  border: 50px;
+}
+
+
+#right-box {
+  color: black;
+  background-color: rgba(225, 225, 225, .9);
+  float: right;
+  text-align: center;
+  width: 20%;
+  height: 35%;
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  padding: 50px;
+  padding-top: 120px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 30px;
+  justify-content: center;
+}
+
+
+#lets-cook-button {
+  font-family: 'Roboto', sans-serif;
+  border-radius: 3px;
+  border: 0px;
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: 0fb9b1;
+}
+
+
+span {
+  color: red;
+}
+
+
+.recipe-box {
+  height: 55%;
+}
