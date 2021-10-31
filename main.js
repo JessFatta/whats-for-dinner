@@ -1,4 +1,3 @@
-// VARIABLES
 var addARecipeButton = document.querySelector("#add-a-recipe-button");
 
 var sideOption = document.querySelector("#side");
@@ -12,49 +11,20 @@ var cookPotImage = document.querySelector(".recipe-box");
 
 var youShouldMake = document.querySelector("#you-should-make");
 
-//var clearButton = document.querySelector("#clear-button");
-// if i want to add clear button back and make it functional then put this code
-//<button id="clear-button">CLEAR</button>
-//on line 34 under full random recipe in HTML
-// if you wanna do the add a recipe CYOA then add this on line 9 in HTML
-// <button id="add-recipe-button">ADD A RECIPE</button>
-
 var randomGeneratedRecipe = document.querySelector("#random-generated-recipe");
 var fullRandomRecipe = document.querySelector("#full-random-recipe");
 
 
-
-// EVENT LISTENERS
 letsCookButton.addEventListener("click", displayARecipe);
 
-//clearButton.addEventListener("click", mainView)
 
-
-//CLASS LISTS DOM
-
-// function mainView() {
 youShouldMake.classList.add('hidden');
-//clearButton.classList.add('hidden');
-// };
 
-//FUNCTIONS
+
 function displayRecipeView() {
   cookPotImage.classList.add('hidden');
   youShouldMake.classList.remove('hidden');
-//  clearButton.classList.remove('hidden');
 };
-
-
-// function mainView() {
-// youShouldMake.classList.add('hidden');
-// clearButton.classList.add('hidden');
-// cookPotImage.classList.remove('hidden');
-// fullRandomRecipe.classList.add('hidden')
-// randomGeneratedRecipe.classList.add('hidden');
-//
-//
-// };
-
 
 
 function getRandomIndex(array) {
@@ -96,8 +66,6 @@ displayRecipeView();
 };
 
 
-
-// ARRAYS
 
 var sides = [
   "Miso Glazed Carrots",

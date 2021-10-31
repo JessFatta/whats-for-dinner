@@ -112,12 +112,14 @@ span {
   height: 55%;
 }
 
+
 #you-should-make {
   font-family: 'Roboto', sans-serif;
   font-style: italic;
   margin-bottom: 3px;
   margin-top: 10px;
 }
+
 
 #random-generated-recipe {
   font-family: 'Roboto', sans-serif;
@@ -126,12 +128,14 @@ span {
   margin-top: 3px;
 }
 
+
 #full-random-recipe {
   font-family: 'Roboto', sans-serif;
   font-size: 200%;
   font-weight: bold;
   margin-top: -20px;
 }
+
 
 #clear-button {
   font-family: 'Roboto', sans-serif;
@@ -147,6 +151,7 @@ span {
   right: 100px;
   bottom: 215px;
 }
+
 
 .hidden {
   display: none;
